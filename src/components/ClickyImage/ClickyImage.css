@@ -1,0 +1,59 @@
+.game-image {
+    width: 200px;
+    height: auto;
+    background: #696969;
+    border-radius: 6px;
+    transition: transform .2s; /* Animation */
+}
+
+.game-image:hover {
+    transform: scale(1.05);
+}
+
+.red-bg {
+    background-color: #a10000;
+}
+
+.brown-bg {
+    background-color: #a25203;
+}
+
+.yellow-bg {
+    background-color: rgba(161, 161, 0, 1);
+}
+
+.lime-bg {
+    background-color: #678900;
+}
+
+.olive-bg {
+    background-color: #336601;
+}
+
+.jade-bg {
+    background-color: #078446;
+}
+
+.teal-bg {
+    background-color: #008282;
+}
+
+.cerulean-bg {
+    background-color: #004182;
+}
+
+.blue-bg {
+    background-color: #0021cb;
+}
+
+.purple-bg {
+    background-color: #440a7f;
+}
+
+.violet-bg {
+    background-color: #6a006a;
+}
+
+.fuchsia-bg {
+    background-color: #99004d;
+}

@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Amisia",
+        "image": "/images/amisia.png", 
+        "bgColor": "blue"
+    },
+    {
+        "id": 2,
+        "name": "Ardata",
+        "image": "/images/ardata.png", 
+        "bgColor": "cerulean"
+    },
+    {
+        "id": 3,
+        "name": "Azdaja",
+        "image": "/images/azdaja.png", 
+        "bgColor": "yellow"
+    },
+    {
+        "id": 4,
+        "name": "Barzum",
+        "image": "/images/barzum.png",
+        "bgColor": "purple"
+    },
+    {
+        "id": 5,
+        "name": "Baizli",
+        "image": "/images/baizli.png",
+        "bgColor": "purple"
+    },
+    {
+        "id": 6,
+        "name": "Boldir",
+        "image": "/images/boldir.png", 
+        "bgColor": "olive"
+    },
+    {
+        "id": 7,
+        "name": "Bronya",
+        "image": "/images/bronya.png",
+        "bgColor": "jade"
+    },
+    {
+        "id": 8,
+        "name": "Chahut",
+        "image": "/images/chahut.png",
+        "bgColor": "purple"
+    },
+    {
+        "id": 9,
+        "name": "Charun",
+        "image": "/images/charun.png",
+        "bgColor": "olive"
+    },
+    {
+        "id": 10,
+        "name": "Chixie",
+        "image": "/images/chixie.png",
+        "bgColor": "brown"
+    }
+]
