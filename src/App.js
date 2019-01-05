@@ -1,42 +1,24 @@
-import React, { Component } from 'react';
+import React from 'react';
+
+//Page components 
 import ScoreCard from "./components/ScoreCard/";
 import Instructions from "./components/Instructions/";
 import ClickyImage from "./components/ClickyImage/";
 import Footer from "./components/Footer/";
 import GameBoard from "./components/GameBoard/";
 
-import starterFriends from "./friends.json";
+//Utility functions and starter data
+import shuffle from "./utils/shuffle.js";
+import getGameItems from "./utils/gamedata/";
 
-/**
- * Randomly shuffle an array
- * (Fisher-Yates algorithm)
- * https://stackoverflow.com/a/2450976/1293256
- */
-function shuffle(array) {
+//Global variables
+let allGameItems = getGameItems(10);
 
-  var currentIndex = array.length;
-  var temporaryValue, randomIndex;
-
-  // While there remain elements to shuffle...
-  while (0 !== currentIndex) {
-    // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex -= 1;
-
-    // And swap it with the current element.
-    temporaryValue = array[currentIndex];
-    array[currentIndex] = array[randomIndex];
-    array[randomIndex] = temporaryValue;
-  }
-  return array;
-};
-
-
-class App extends React.Component {
+class App extends React.Component {  
   constructor(props) {
     super(props);
     this.state = {
-      friends: shuffle(starterFriends),
+      friends: shuffle(allGameItems),
       currentScore: 0,
       bestScore: 0
     };
@@ -53,7 +35,7 @@ class App extends React.Component {
       let newScore = this.state.currentScore + 1;
       this.setState({
         currentScore: newScore,
-        friends: shuffle(starterFriends)
+        friends: shuffle(allGameItems)
       });
     }
     //Otherwise, it's a repeat...and the game starts over :)
@@ -61,13 +43,13 @@ class App extends React.Component {
       //first, check if our previous score beat our record
       const newHiScore = (this.state.currentScore > this.state.bestScore ? this.state.currentScore : this.state.bestScore);
       //then quickly reset the clicks for everyone
-      starterFriends.forEach(element => {
+      allGameItems.forEach(element => {
         element.isClicked=false;
       });
       this.setState({
         currentScore: 0,
         bestScore: newHiScore,
-        friends: shuffle(starterFriends)
+        friends: shuffle(allGameItems)
       });
     }
 

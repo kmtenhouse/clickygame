@@ -1,0 +1,261 @@
+[
+    {
+        "id": 1,
+        "name": "Amisia",
+        "image": "/images/amisia.png", 
+        "bgColor": "blue",
+        "isClicked": false
+    },
+    {
+        "id": 2,
+        "name": "Ardata",
+        "image": "/images/ardata.png", 
+        "bgColor": "cerulean",
+        "isClicked": false
+    },
+    {
+        "id": 3,
+        "name": "Azdaja",
+        "image": "/images/azdaja.png", 
+        "bgColor": "yellow",
+        "isClicked": false
+    },
+    {
+        "id": 4,
+        "name": "Barzum",
+        "image": "/images/barzum.png",
+        "bgColor": "purple",
+        "isClicked": false
+    },
+    {
+        "id": 5,
+        "name": "Baizli",
+        "image": "/images/baizli.png",
+        "bgColor": "purple",
+        "isClicked": false
+    },
+    {
+        "id": 6,
+        "name": "Boldir",
+        "image": "/images/boldir.png", 
+        "bgColor": "olive",
+        "isClicked": false
+    },
+    {
+        "id": 7,
+        "name": "Bronya",
+        "image": "/images/bronya.png",
+        "bgColor": "jade",
+        "isClicked": false
+    },
+    {
+        "id": 8,
+        "name": "Chahut",
+        "image": "/images/chahut.png",
+        "bgColor": "purple",
+        "isClicked": false
+    },
+    {
+        "id": 9,
+        "name": "Charun",
+        "image": "/images/charun.png",
+        "bgColor": "olive",
+        "isClicked": false
+    },
+    {
+        "id": 10,
+        "name": "Chixie",
+        "image": "/images/chixie.png",
+        "bgColor": "brown",
+        "isClicked": false
+    },
+    {
+        "id": 11,
+        "name": "Cirava",
+        "image": "/images/cirava.png",
+        "bgColor": "yellow",
+        "isClicked": false
+    },
+    {
+        "id": 12,
+        "name": "Daraya",
+        "image": "/images/daraya.png",
+        "bgColor": "jade",
+        "isClicked": false
+    },
+    {
+        "id": 13,
+        "name": "Diemen",
+        "image": "/images/diemen.png",
+        "bgColor": "red",
+        "isClicked": false
+    },
+    {
+        "id": 14,
+        "name": "Elwurd",
+        "image": "/images/elwurd.png",
+        "bgColor": "cerulean",
+        "isClicked": false
+    },
+    {
+        "id": 15,
+        "name": "Fozzer",
+        "image": "/images/fozzer.png",
+        "bgColor": "red",
+        "isClicked": false
+    },
+    {
+        "id": 16,
+        "name": "Galekh",
+        "image": "/images/galekh.png",
+        "bgColor": "blue",
+        "isClicked": false
+    },
+    {
+        "id": 17,
+        "name": "Karako",
+        "image": "/images/karako.png",
+        "bgColor": "purple",
+        "isClicked": false
+    },
+    {
+        "id": 18,
+        "name": "Konyyl",
+        "image": "/images/konyyl.png",
+        "bgColor": "olive",
+        "isClicked": false
+    },
+    {
+        "id": 19,
+        "name": "Kuprum and Folykl",
+        "image": "/images/kuprumandfol.png",
+        "bgColor": "yellow",
+        "isClicked": false
+    },
+    {
+        "id": 20,
+        "name": "Lanque",
+        "image": "/images/lanque.png",
+        "bgColor": "jade",
+        "isClicked": false
+    },
+    {
+        "id": 21,
+        "name": "Lynera",
+        "image": "/images/lynera.png",
+        "bgColor": "jade",
+        "isClicked": false
+    },
+    {
+        "id": 22,
+        "name": "Mallek",
+        "image": "/images/mallek.png",
+        "bgColor": "cerulean",
+        "isClicked": false
+    },
+    {
+        "id": 23,
+        "name": "Marsti",
+        "image": "/images/marsti.png",
+        "bgColor": "red",
+        "isClicked": false
+    },
+    {
+        "id": 24,
+        "name": "Marvus",
+        "image": "/images/marvus.png",
+        "bgColor": "purple",
+        "isClicked": false
+    },
+    {
+        "id": 25,
+        "name": "Nihkee",
+        "image": "/images/nihkee.png",
+        "bgColor": "blue",
+        "isClicked": false
+    },
+    {
+        "id": 26,
+        "name": "Polypa",
+        "image": "/images/polypa.png",
+        "bgColor": "olive",
+        "isClicked": false
+    },
+    {
+        "id": 27,
+        "name": "Remele",
+        "image": "/images/remele.png",
+        "bgColor": "cerulean",
+        "isClicked": false
+    },
+    {
+        "id": 28,
+        "name": "Skylla",
+        "image": "/images/skylla.png",
+        "bgColor": "brown",
+        "isClicked": false
+    },
+    {
+        "id": 29,
+        "name": "Stelza",
+        "image": "/images/stelza.png",
+        "bgColor": "teal",
+        "isClicked": false
+    },
+    {
+        "id": 30,
+        "name": "Tagora",
+        "image": "/images/tagora.png",
+        "bgColor": "teal",
+        "isClicked": false
+    },
+    {
+        "id": 31,
+        "name": "Tegiri",
+        "image": "/images/tegiri.png",
+        "bgColor": "teal",
+        "isClicked": false
+    },
+    {
+        "id": 32,
+        "name": "Tirona",
+        "image": "/images/tirona.png",
+        "bgColor": "teal",
+        "isClicked": false
+    },
+    {
+        "id": 33,
+        "name": "Tyzias",
+        "image": "/images/tyzias.png",
+        "bgColor": "teal",
+        "isClicked": false
+    },
+    {
+        "id": 34,
+        "name": "Vikare",
+        "image": "/images/vikare.png",
+        "bgColor": "brown",
+        "isClicked": false
+    },
+    {
+        "id": 35,
+        "name": "Wanshi",
+        "image": "/images/wanshi.png",
+        "bgColor": "olive",
+        "isClicked": false
+    },
+    {
+        "id": 36,
+        "name": "Zebede",
+        "image": "/images/zebede.png",
+        "bgColor": "yellow",
+        "isClicked": false
+    },
+    {
+        "id": 37,
+        "name": "Zebruh",
+        "image": "/images/zebruh.png",
+        "bgColor": "blue",
+        "isClicked": false
+    }
+]

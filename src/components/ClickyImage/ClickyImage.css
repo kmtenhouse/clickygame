@@ -1,12 +1,14 @@
 .game-image {
     width: 200px;
     height: auto;
-    background: #696969;
+}
+
+.game-item {
     border-radius: 6px;
     transition: transform .2s; /* Animation */
 }
 
-.game-image:hover {
+.game-item:hover {
     transform: scale(1.05);
 }
 
