@@ -18,6 +18,7 @@ class App extends React.Component {
       friends: getGameItems(10), //default is 10 items in our game
       currentScore: 0,
       bestScore: 0
+      //(TO-DO): add a maxscore
     };
   }
 
@@ -41,6 +42,7 @@ class App extends React.Component {
       //first, check if our previous score beat our record
       //if so, make this score our new BEST SCORE
       const newHiScore = (this.state.currentScore > this.state.bestScore ? this.state.currentScore : this.state.bestScore);
+      //(TO-DO) Check if we've hit the best possible score (our maxscore) -- offer the user the option to select a new random assortment of friends and start over
       //then quickly reset the clicks for everyone
       this.state.friends.forEach(element => {
         element.isClicked=false;
