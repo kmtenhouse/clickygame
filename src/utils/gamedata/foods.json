@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "name": "Apple",
+        "image": "/images/gastronomy-set/apple-1.png", 
+        "bgColor": "LightYellow",
+        "isClicked": false
+    },
+    {
+        "id": 2,
+        "name": "Asparagus",
+        "image": "/images/gastronomy-set/asparagus.png", 
+        "bgColor": "LightYellow",
+        "isClicked": false
+    },
+    {
+        "id": 3,
+        "name": "Aubergine",
+        "image": "/images/gastronomy-set/aubergine.png", 
+        "bgColor": "LightYellow",
+        "isClicked": false
+    },
+    {
+        "id": 4,
+        "name": "Avocado",
+        "image": "/images/gastronomy-set/avocado.png", 
+        "bgColor": "LightYellow",
+        "isClicked": false
+    },
+    {
+        "id": 5,
+        "name": "Bacon",
+        "image": "/images/gastronomy-set/bacon.png", 
+        "bgColor": "LightYellow",
+        "isClicked": false
+    },
+    {
+        "id": 6,
+        "name": "Baguette",
+        "image": "/images/gastronomy-set/baguette.png", 
+        "bgColor": "LightYellow",
+        "isClicked": false
+    },
+    {
+        "id": 7,
+        "name": "Banana",
+        "image": "/images/gastronomy-set/banana.png", 
+        "bgColor": "LightYellow",
+        "isClicked": false
+    },
+    {
+        "id": 8,
+        "name": "Beans",
+        "image": "/images/gastronomy-set/beans.png", 
+        "bgColor": "LightYellow",
+        "isClicked": false
+    },
+    {
+        "id": 9,
+        "name": "Biscuit",
+        "image": "/images/gastronomy-set/biscuit.png", 
+        "bgColor": "LightYellow",
+        "isClicked": false
+    },
+    {
+        "id": 10,
+        "name": "Blueberries",
+        "image": "/images/gastronomy-set/blueberries.png", 
+        "bgColor": "LightYellow",
+        "isClicked": false
+    },
+    {
+        "id": 11,
+        "name": "Boiled",
+        "image": "/images/gastronomy-set/boiled.png", 
+        "bgColor": "LightYellow",
+        "isClicked": false
+    },
+    {
+        "id": 12,
+        "name": "Bowl",
+        "image": "/images/gastronomy-set/bowl-1.png", 
+        "bgColor": "LightYellow",
+        "isClicked": false
+    },
+    {
+        "id": 13,
+        "name": "Broccoli",
+        "image": "/images/gastronomy-set/broccoli.png", 
+        "bgColor": "LightYellow",
+        "isClicked": false
+    }
+]
